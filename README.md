@@ -36,4 +36,32 @@ It also includes a **Teacher Mode** that explains how the app works in simple te
 ---
 
 ## 📂 Project Structure
+repo/
+├── app.py # Streamlit app script
+├── requirements.txt # Required dependencies
+├── README.md # Project documentation
+└── lesson_plan.pdf # Lesson plan for ages 12–16
+
+
+
+
+---
+## ⚙️ Setup & Run Instructions
+
+Follow these steps to set up and run the project locally or deploy it on Streamlit Cloud.
+
+---
+
+### 🧩 1️⃣ Clone the Repository
+Open your terminal or command prompt and run:
+```bash
+git clone https://github.com/Prince-git-hub-360/Word2Emoji.git
+cd Word2Emoji
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+http://localhost:8501
+
 
