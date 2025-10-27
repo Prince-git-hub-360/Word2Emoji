@@ -1,10 +1,10 @@
 import streamlit as st
-import re
 from textblob import TextBlob
 from transformers import pipeline
-import logging
 import nltk
+import re
 
+# Download NLTK data safely
 nltk.download('punkt', quiet=True)
 nltk.download('punkt_tab', quiet=True)
 
@@ -186,4 +186,5 @@ with st.expander("Teacher Mode — How it works"):
 
 st.caption("""Made by Prince Kumar 
            with using Hugging Face + Streamlit + TextBlob • \n For ages 12–16""")
+
 
