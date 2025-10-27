@@ -1,4 +1,4 @@
-# Word2Emoji
+# Mood2Emoji
 Kid-safe Text Mood Detector built using Streamlit, TextBlob, and Transformers.
 
 # Mood2Emoji — Kid-Safe Text Mood Detector
